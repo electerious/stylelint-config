@@ -25,10 +25,7 @@
   "files": [
     "src"
   ],
-  "peerDependencies": {
-    "stylelint": "^13.13.1"
-  },
-  "devDependencies": {
+  "dependencies": {
     "stylelint": "^13.13.1"
   },
   "stylelint": {

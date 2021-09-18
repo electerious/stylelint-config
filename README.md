@@ -6,10 +6,10 @@ Shareable stylelint configuration for my personal projects.
 
 ## Install
 
-Install this package, stylelint and the necessary plugins.
+Install this package. It already includes stylelint and the necessary plugins.
 
 ```
-npm install --save-dev @electerious/stylelint-config stylelint
+npm install --save-dev @electerious/stylelint-config
 ```
 
 ## Usage
