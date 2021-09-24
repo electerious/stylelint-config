@@ -1,3 +1,32 @@
+html {
+	width: 100%;
+	height: 100%;
+}
+
 body {
+	--padding: 0.5em;
+
 	background: white;
+	padding: var(--padding);
+	margin: calc(10px + 10px);
+	/*
+	 * This is a comment.
+	 */
+	font-size: 120%;
+
+	a { color: black; }
+
+	*,
+	*::before,
+	*::after {
+		box-sizing: border-box;
+	}
+
+	@media (max-width: 800px) {
+		font-size: 110%;
+	}
+
+	@media (max-width: 600px) {
+		font-size: 100%;
+	}
 }
