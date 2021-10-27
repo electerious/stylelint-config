@@ -26,7 +26,7 @@
     "src"
   ],
   "dependencies": {
-    "stylelint": "^13.13.1"
+    "stylelint": "^14.0.1"
   },
   "devDependencies": {
     "@electerious/eslint-config": "^3.0.0"
