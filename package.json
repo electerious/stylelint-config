@@ -6,7 +6,6 @@
   ],
   "description": "stylelint configuration for my personal projects",
   "main": "src/index.js",
-  "type": "module",
   "keywords": [
     "stylelint",
     "config",

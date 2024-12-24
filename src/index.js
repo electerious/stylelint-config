@@ -1,4 +1,4 @@
-export default {
+module.exports = {
   rules: {
     'color-no-invalid-hex': true,
     'font-family-no-duplicate-names': true,
