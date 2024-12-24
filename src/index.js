@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   rules: {
     'color-no-invalid-hex': true,
     'font-family-no-duplicate-names': true,
@@ -25,7 +25,6 @@ module.exports = {
     'no-empty-source': true,
     'no-invalid-double-slash-comments': true,
     'no-invalid-position-at-import-rule': true,
-
     'alpha-value-notation': 'number',
     'hue-degree-notation': 'angle',
     'color-function-notation': 'modern',
@@ -36,7 +35,6 @@ module.exports = {
     'shorthand-property-no-redundant-values': true,
     'declaration-block-single-line-max-declarations': 1,
     'no-unknown-animations': true,
-
     'color-hex-length': 'short',
     'font-family-name-quotes': 'always-unless-keyword',
     'function-name-case': 'lower',

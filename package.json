@@ -6,6 +6,7 @@
   ],
   "description": "stylelint configuration for my personal projects",
   "main": "src/index.js",
+  "type": "module",
   "keywords": [
     "stylelint",
     "config",
@@ -28,7 +29,7 @@
     "src"
   ],
   "dependencies": {
-    "stylelint": "^15.11.0"
+    "stylelint": "^16.12.0"
   },
   "stylelint": {
     "extends": "./src/index.js"
